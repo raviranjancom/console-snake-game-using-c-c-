@@ -109,6 +109,7 @@ int main(){
     setup();
     while(!gameover){
         draw();
+        Sleep(100);
         input();
         logic();
     }
